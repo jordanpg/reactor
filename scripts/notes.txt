@@ -1,0 +1,26 @@
+singularity becomes more active as it heats up
+
+say that for every x unit of heat, the activity increases by y
+
+y activity
+_________
+x heat
+
+multiply by current heat to get the singularity activity
+
+if the rate is (0.01 / 10 = .001), the activity would be 1 at 1000 heat
+
+take coolant algorithm at 100% to see reasonable-ness
+
+(0 - 1000) = -1000
+-1000 * (1.5 * 1) = -1500
+
+
+REACTOR PHASES
+{
+	phase 1 : Heating
+	phase 2 : Power
+	phase 3 : Cooling
+	phase 4 : Monitors
+	repeat
+}
